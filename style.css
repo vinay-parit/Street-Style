@@ -1,0 +1,228 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Orbitron", serif;
+}
+
+.container{
+    overflow: hidden;
+}
+
+
+.navbar-container{
+ display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+.logo{
+    padding-left: 3rem;
+}
+
+.menu{
+
+    display: none;
+    font-size: 30px;
+}
+.list{
+    display: flex;
+    list-style: none;
+    gap: 6rem;
+    font-size: 1rem;
+    padding-top: 1rem;
+}
+
+.button-group{
+    display: flex;
+    gap: 1rem;
+    padding-right: 6rem;
+}
+
+.btn>button{
+    width: 80px;
+    height: 25px;
+    border-radius: 6px;
+    color: rgb(183, 183, 183)
+} 
+
+.hero-container{
+    position: relative;
+}
+
+.star{
+    position: absolute;
+    left: 40rem;
+    top:28rem;
+}
+
+.globe{
+    position: absolute;
+    left: 55rem;
+    top: 2rem;
+}
+
+.star-2{
+    position: absolute;
+    left: 83rem;
+    top: 7rem;
+}
+
+.square>img{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 15rem;
+    left: 6rem;
+}
+
+.boy>img{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    left: 2.5rem;
+    top: 5rem;
+}
+
+.hero-container-right{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    padding-right: 10rem;
+    
+    
+}
+
+.hero-heading{
+    font-size: 2.5rem;
+    justify-self: center;
+    padding-top: 14rem;
+
+}
+
+.hero-description{  
+    text-align: center;
+    font-size: 12px;
+    opacity: 0.5;
+    letter-spacing: 1px;
+    padding-top: 2rem;
+}
+
+ .btn-2{    
+    padding-right: 10rem;
+    padding-top: 3rem;
+    
+} 
+
+.button-email{
+    width: 140px;
+    height: 30px;
+    border-radius: 10px;
+    
+}
+
+.button-join{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.contact-heading{
+    padding-right: 15rem;
+    padding-top: 1.5rem;
+    font-size: 12PX;
+}
+
+.icons{
+    display: flex;
+    gap: 1rem;
+    padding-right: 10rem;
+    padding-top: 1rem;
+}
+
+
+@media (max-width:375px) {
+    .list{
+       display: none;
+    }
+
+    .button-group{
+        display: none;
+    }
+    
+    .menu{
+        display: block;
+        padding-right: 1rem;
+        
+    }
+    .logo{
+        padding-left: 2rem;
+    }
+    .logo>img{
+        height: 40px;
+        width: 80px;
+    }
+
+    .star{
+        display: none;
+    }
+    .globe{
+        display: none;
+    }
+
+    .star-2{
+        display: none;
+    }
+
+    .square>img{
+        height: 255px;
+        width: 280px;   
+    }
+
+    .hero-container-right{
+            /* align-items: center; */
+            width: fit-content; 
+            padding-top: 20rem;
+            /* padding-left: 2rem; */
+    }    
+         .hero-heading{
+            text-align: center;
+         }
+         
+        .hero-description{
+            text-align: center;
+            font-size: 15px;
+            font-family: "Poppins", serif;
+        }  
+
+        .btn-2{
+            display: flex;
+             padding-right: 4rem;
+             padding-top: 1.5rem;
+             gap: 1rem;
+        }
+         
+        .contact-heading{
+             padding-right: 10rem;
+        }
+        .hero-container-right{
+            padding-right: 0;
+        }
+        .icons{
+            padding-right: 5rem;
+            padding-bottom: 1rem;
+            
+        }
+        
+            
+}
+    
+    
+
+

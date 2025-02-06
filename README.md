@@ -4,7 +4,7 @@
 ### Links
 
 - Solution URL: [Github](https://github.com/vinay-parit/Street-Style)
-- Live Site URL: [Netlify Link](https://street-style-eight.vercel.app/)
+- Live Site URL: [vercel Link](https://street-style-eight.vercel.app/)
 
 ### Author
 
